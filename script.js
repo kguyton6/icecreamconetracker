@@ -1,5 +1,5 @@
 
-if(localStorage.getItem("count") == null) {
+if(localStorage.getItem("count") === null) {
 	localStorage.setItem("count", 0)
 }
 
@@ -15,6 +15,20 @@ function plusOne() {
 	localStorage.setItem("count", (Number(localStorage.getItem("count")) + 1));
 	update();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //reset count
 function reset() {

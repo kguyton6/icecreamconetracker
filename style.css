@@ -2,10 +2,11 @@
 /*Theme color*/
 body,
 #reset {
-	background-color: pink; /*change here*/
+	background-color: rgb(247, 128, 148); /*change here*/
 }
 #plus-one {
-	color: pink; /*and here*/
+    color: rgb(247, 128, 148); 
+    font-family: Arial, Helvetica, sans-serif;/*and here*/
 }
 
 /*Choose your own theme color at http://www.flatuicolorpicker.com
@@ -22,16 +23,22 @@ edward: ABB7B7
 
 /*Habit Tracker Styles*/
 
+
 body {
 	color: white;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 125px;
 	font-family: 'Indie Flower', cursive;
+}
+
+h1{
+ font-size: 60px;
+
 }
 
 button,
 button:focus {
-	border-radius: 3px;
+	border-radius: 12px;
 	touch-action: manipulation;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -39,14 +46,17 @@ button:focus {
 #plus-one {
 	background-color: white;
 	border: none;
-	padding: 15px 32px;
+    padding: 15px 32px;
+    font-size: larger;
 }
 
 #reset {
 	border-color: rgba(255,255,255,0.8);
 	border-style: solid;
 	color: rgba(255,255,255,0.8);
-	padding: 5px 15px;
+    padding: 5px 15px;
+    width: 75px;
+    height: 30px;
 }
 
 a {
@@ -55,7 +65,8 @@ a {
 
 button:hover,
 div:hover {
-	cursor: pointer;
+    cursor: pointer;
+    
 }
 
 div {
@@ -71,3 +82,4 @@ ul {
 	list-style-type: none;
 	padding: 0;
 }
+
